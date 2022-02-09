@@ -329,6 +329,3 @@ def skill_check(skill: str) -> bool:
 
 def close_up():
     conn.close()
-
-
-print(skill_check('fire'))
